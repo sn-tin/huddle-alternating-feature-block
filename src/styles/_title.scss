@@ -1,0 +1,100 @@
+// Title Page 
+
+#title {
+    background-image: url(../images/bg-hero-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(193, 100%, 96%);
+}
+
+.title-text {
+    h1 {
+        line-height: 1.5;
+    }
+    p {
+        padding: 10px;
+    }
+}
+
+.title-button {
+    color: $white;
+    font-size: 0.8rem;
+    font-weight: 700;
+    background-color: $pink;
+    padding: 10px 50px;
+    &:hover {
+        color: $white;
+        background-color: hsla(322, 100%, 66%, 0.733);
+    }
+}
+
+.title-page {
+    padding: 40px;
+    img {
+        margin-top: 50px;
+    }
+}
+
+.illustrations {
+    max-width: 100%;
+}
+
+@media (min-width: 540px) {
+    #title {
+        padding: 50px 80px;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    
+    #title {
+        background-image: url(../images/bg-hero-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: $very-pale-cyan;
+        padding: 50px 100px 100px;
+    }
+    
+    .title-text {
+        text-align: left;
+        h1 {
+            // font-size: 2.5em;
+            line-height: 1.5;
+        }
+        p {
+            // font-size: 1em;
+            padding: 0;
+            margin: 20px 0 30px;
+        }
+    }
+    
+    .title-page {
+        padding: 50px 0 0;
+        img {
+            margin-top: 0;
+        }
+        .btn {
+            padding: $buttonPadding;
+        }
+    }
+
+}
+
+@media (min-width: 1440px) {
+
+    #title {
+        padding: 50px 100px;
+    }
+
+    // .title-text {
+    //     h1 {
+    //         font-size: 2.8rem;
+    //     }
+    //     p {
+    //         font-size: 1.12rem;
+    //     }
+    // }
+
+
+}

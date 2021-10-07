@@ -1,0 +1,39 @@
+// CTA
+
+#cta {
+    @extend .feature-box;
+    margin: 0 20px;
+    padding: 30px 10px;
+    transform: translateY(40%);
+    h3 {
+        margin-bottom: 20px;
+    }
+}
+
+.cta-button {
+    @extend .title-button;
+    padding: 10px 30px;
+}
+
+@media (min-width: 540px) {
+
+    #cta {
+        margin: 0 auto;
+        width: min(50%, 600px);
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    #cta {
+        text-align: center;
+        margin: 0 auto;
+        padding: 40px;
+    }
+
+    .cta-button {
+        padding: $buttonPadding;
+    }
+
+}

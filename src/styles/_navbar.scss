@@ -1,0 +1,33 @@
+// Navbar
+
+.navbar {
+    padding: 20px 10px 40px;
+    .btn {
+        font-size: 0.8rem; 
+        font-family: $h-family;
+        background-color: $white;
+        padding: 5px 20px;
+        &:hover {
+            color: hsla(0, 0%, 0%, 0.438);
+        }
+    }
+}
+
+.navbar-brand {
+    text-align: initial;
+    width: 40%;
+    img {
+        width: min(80%, 12rem);
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .navbar {
+        padding: 0;
+        .btn {
+            padding: 10px 50px;
+        }
+    }
+
+}
